@@ -1,8 +1,8 @@
 {
   "trailingComma": "all",
   "tabWidth": 2,
-  "semi": false,
   "singleQuote": true,
   "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "endOfLine": "auto"
 }
