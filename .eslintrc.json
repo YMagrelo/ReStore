@@ -21,6 +21,7 @@
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "off",
     "semi": [1, "always"],
+    "react/prop-types": 0,
     "prettier/prettier": [
       "warn",
       {

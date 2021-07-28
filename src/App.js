@@ -1,7 +1,8 @@
 import './App.css';
-
-function App() {
+import withBookstoreService from './components/hoc/with-bookstore-service';
+function App({ bookstoreService }) {
+  console.log(bookstoreService.getBooks());
   return <div>App</div>;
 }
 
-export default App;
+export default withBookstoreService()(App);
