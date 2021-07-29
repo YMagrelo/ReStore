@@ -4,3 +4,9 @@ export const booksLoaded = (newBooks) => {
     payload: newBooks,
   };
 };
+
+export const booksRequested = () => {
+  return {
+    type: 'BOOKS_REQUESTED',
+  };
+};
