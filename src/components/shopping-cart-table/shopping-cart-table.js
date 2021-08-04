@@ -15,7 +15,7 @@ const ShoppingCartTable = ({
         <td>{index + 1}</td>
         <td>{name}</td>
         <td>{count}</td>
-        <td>{total}</td>
+        <td>${total}</td>
         <td>
           <button
             className="btn btn-outline-warning"
