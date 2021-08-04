@@ -25,6 +25,13 @@ export const bookAddedToCart = (bookId) => {
   };
 };
 
+// export const bookCountIncreased = (bookId) => {
+//   return {
+//     type: 'BOOK_COUNT_INCREASED',
+//     payload: book,
+//   };
+// };
+
 export const fetchBooks = (bookstoreService, dispatch) => () => {
   dispatch(booksRequested());
   bookstoreService
